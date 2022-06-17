@@ -163,6 +163,6 @@ def run_blm_lr(graph):
 if __name__ == "__main__":
     from two_layer_graph import TwoLayerGraph
 
-    newGraph = TwoLayerGraph(20000)
+    newGraph = TwoLayerGraph(10000)
     _, payoff = run_blm_lr(newGraph)
-    print(newGraph.best_expect_y() * 20000 - payoff)
+    print(newGraph.best_expect_y() * 10000 - payoff)
