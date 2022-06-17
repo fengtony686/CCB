@@ -6,15 +6,14 @@ This repository contains code of numerical experiments for paper:
 
 # Usage
 $G_1,G_2,\cdots,G_4$ are parallel binary linear models. $G_1$ and $G_2$ are shown as below:
-![](https://github.com/fengtony686/CCB/blob/main/results/G1_structure.png)
-![](https://github.com/fengtony686/CCB/blob/main/results/G2_structure.png)
+![](https://github.com/fengtony686/CCB/raw/main/results/G1_structure.png)
+![](https://github.com/fengtony686/CCB/raw/main/results/G2_structure.png)
 $G_3$ is $G_2$ without $X_8$ and $X_9$. $G_4$ is $G_2$ removing $X_6,X_7,X_8$ and $X_9$.
 $G_5$ is a two-layer BLM shown as below:
-![](https://github.com/fengtony686/CCB/blob/main/results/G5_structure.png)
+![](https://github.com/fengtony686/CCB/raw/main/results/G5_structure.png)
 
 If you want to compare regrets of BLM-OFU, BLM-LR, UCB and $\epsilon$-greedy algorithms on graph $G_\*$, you need to run
 ```
 python main.py --G*
 ```
-
 You can find our running samples in `./results/` directory.
