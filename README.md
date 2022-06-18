@@ -13,7 +13,7 @@ $G_1,G_2,\cdots,G_4$ are parallel binary linear models. $G_1$ and $G_2$ are show
 $G_3$ is $G_2$ without $X_8$ and $X_9$. $G_4$ is $G_2$ removing $X_6,X_7,X_8$ and $X_9$.
 $G_5$ is a two-layer BLM shown as below:
 <center>
-    <img src="https://github.com/fengtony686/CCB/raw/main/results/G5_structure.png" width="300"/>
+    <img src="https://github.com/fengtony686/CCB/raw/main/results/G5_structure.png" width="200"/>
 </center>
 
 If you want to compare regrets of BLM-OFU, BLM-LR, UCB and $\epsilon$-greedy algorithms on graph $G_\*$, you need to run
