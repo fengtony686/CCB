@@ -6,9 +6,10 @@ This repository contains code of numerical experiments for paper:
 
 ## Usage
 $G_1,G_2,\cdots,G_4$ are parallel binary linear models. $G_1$ and $G_2$ are shown as below:
-<center class="half">
-    <img src="https://github.com/fengtony686/CCB/raw/main/results/G1_structure.png" width="200"/><img src="https://github.com/fengtony686/CCB/raw/main/results/G2_structure.png" width="200"/>
+<center>
+    <img src="https://github.com/fengtony686/CCB/raw/main/results/G1_structure.png" width="300"/><img src="https://github.com/fengtony686/CCB/raw/main/results/G2_structure.png" width="300"/>
 </center>
+
 $G_3$ is $G_2$ without $X_8$ and $X_9$. $G_4$ is $G_2$ removing $X_6,X_7,X_8$ and $X_9$.
 $G_5$ is a two-layer BLM shown as below:
 ![G5](https://github.com/fengtony686/CCB/raw/main/results/G5_structure.png)
