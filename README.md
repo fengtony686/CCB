@@ -1,7 +1,7 @@
 # Combinatorial Causal Bandits
-This repository contains code of numerical experiments for paper:
-**Combinatorial Causal Bandits** 
-[Shi Feng](https://fengshi.link/), [Wei Chen](https://www.microsoft.com/en-us/research/people/weic/) 
+This repository contains code of numerical experiments for paper:         
+**Combinatorial Causal Bandits**        
+[Shi Feng](https://fengshi.link/), [Wei Chen](https://www.microsoft.com/en-us/research/people/weic/)          
 [[ArXiv Version](https://arxiv.org/abs/2206.01995)]
 
 ## Usage
