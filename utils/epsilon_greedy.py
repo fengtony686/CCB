@@ -2,7 +2,7 @@ import numpy as np
 import math
 
 
-def run_eps_greedy(graph):
+def run_eps_greedy(graph, coef=1):
     sum_of_rewards = np.zeros(math.comb(graph.n - 2, graph.k))
     num_of_trigger = np.zeros(math.comb(graph.n - 2, graph.k))
     total_payoff = 0
@@ -13,7 +13,7 @@ def run_eps_greedy(graph):
         best_intervention = []
         best_intervention_index = -1
         random_index = -1
-        if np.random.random() > 0.9:
+        if np.random.random() > 1 - 0.1 * coef:
             random_index = int(np.random.random() * len(sum_of_rewards))
         for j in range(np.power(graph.n - 2, graph.k)):
             intervened_indexes = []

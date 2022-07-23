@@ -2,7 +2,7 @@ import numpy as np
 import math
 
 
-def run_ucb(graph):
+def run_ucb(graph, coef=1):
     sum_of_rewards = np.zeros(math.comb(graph.n - 2, graph.k))
     num_of_trigger = np.zeros(math.comb(graph.n - 2, graph.k))
     total_payoff = 0
@@ -21,7 +21,7 @@ def run_ucb(graph):
             if len(intervened_indexes) < graph.k:
                 continue
             tmp_reward = sum_of_rewards[index] / num_of_trigger[index] if num_of_trigger[index] > 0 else 1
-            tmp_reward += np.sqrt(np.log(i + 1) / num_of_trigger[index]) if num_of_trigger[index] > 0 else 99999
+            tmp_reward += coef * np.sqrt(np.log(i + 1) / num_of_trigger[index]) if num_of_trigger[index] > 0 else 99999
             if tmp_reward > max_reward:
                 max_reward = tmp_reward
                 best_intervention = intervened_indexes
