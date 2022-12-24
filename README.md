@@ -1,7 +1,8 @@
 # Combinatorial Causal Bandits
 [![](https://tokei.rs/b1/github/fengtony686/CCB)](https://github.com/fengtony686/CCB)      
 This repository contains code of numerical experiments for paper:         
-**Combinatorial Causal Bandits**        
+**Combinatorial Causal Bandits**
+AAAI 2023
 [Shi Feng](https://fengshi.link/), [Wei Chen](https://www.microsoft.com/en-us/research/people/weic/)          
 [[ArXiv Version](https://arxiv.org/abs/2206.01995)]
 
